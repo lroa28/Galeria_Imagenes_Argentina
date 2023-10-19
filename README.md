@@ -8,8 +8,6 @@
 *** Thanks again! Now go create something AMAZING! :D
 -->
 
-
-
 <!-- PROJECT SHIELDS -->
 <!--
 *** I'm using markdown "reference style" links for readability.
@@ -28,7 +26,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/lroa28">
-    <img class="img-fluid rounded-circle" src="./imgs/LogoOxRedondo.png" alt="Logo" width="80" height="80">
+    <img class="img-fluid rounded-circle" src="./imgs/LogoOxRedondo.png" alt="Logo" width="80" height="70">
   </a>
 
   <h3 align="center">Web Development</h3>
@@ -46,8 +44,6 @@
     <a href="https://github.com/othneildrew/Best-README-Template/issues">Request Feature</a>
   </p>
 </div>
-
-
 
 <!-- TABLE OF CONTENTS -->
 <details>
@@ -83,8 +79,6 @@
 Web Development Service.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
 
 ### Built With
 
@@ -192,15 +186,13 @@ Framework: Bootstrap 5.3
 <!-- CONTACT -->
 ## Contact
 
-* Instagram - [@IG](https://instagram.com/overflow_x_arg?igshid=ZDdkNTZiNTM=) 
+* Instagram - [@IG](https://www.instagram.com/overflow.x.arg/) 
 
 * E-mail - overflow.x.lcr@gmail.com
 
 * Linkedin - [![LinkedIn][linkedin-shield]](https://www.linkedin.com/in/lucrecia-cecilia-roa-242b7514)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
 
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
