@@ -125,10 +125,10 @@ h1 {
   .mobile-toggle {
     display: none;
     cursor: pointer;
-    font-size: 20px;
+    font-size: 10px;
     position: absolute;
-    right: 22px;
-    top: 0;
+    right: 40px;
+    top: 18px;
     width: 30px;
     -webkit-transition: all 200ms ease-in;
     -moz-transition: all 200ms ease-in;
@@ -136,7 +136,7 @@ h1 {
   }
 
   .mobile-toggle span {
-    width: 30px;
+    width: 25px;
     height: 4px;
     margin-bottom: 6px;
     border-radius: 1000px;
@@ -244,16 +244,17 @@ h1 {
 /* ------------------------- */
 /* --------GALLERY---------- */
 /* ------------------------- */
-
 .hero-section{
 	align-items: flex-start;
 	background-image: linear-gradient(15deg, #0f4667 0%, #2a6973 150%);
 	display: flex;
 	min-height: 100%;
 	justify-content: center;
-	padding: var(--spacing-xxl) var(--spacing-l);
+  padding: 30px 5px 30px 5px !important;
+  margin: 0 !important;
+	/* padding: var(--spacing-xxl) var(--spacing-l);
   padding-top: 50px;
-  padding-bottom: 50px;
+  padding-bottom: 50px; */
 }
 
 /* ------------------------- */
@@ -261,9 +262,9 @@ h1 {
 /* ------------------------- */  
 .card-grid{
   display: grid;
-  grid-template-columns: repeat(1, 1fr);
-  grid-column-gap: var(--spacing-l);
-  grid-row-gap: var(--spacing-l);
+  grid-template-columns: repeat(5, 1fr);
+  grid-column-gap: var(--spacing-xl);
+  grid-row-gap: var(--spacing-xl);
   max-width: var(--width-container);
   width: 100%;
 }
@@ -389,61 +390,127 @@ ul#redesBottom li.twitter a{ background-position:-191px -36px}
 /* --------- Media queries --------- */
 /* --------------------------------- */
 
-@media only screen and (max-width: 766px) {
-  .main_h {
-    padding-top: 25px;
+/* Available breakpoints extra small */
+/* por lo gral utilizan @media screen and (max-width:480px){}*/ 
+@media (min-width: 1px) and (max-width: 320px) and (orientation : portrait) {
+  .card-grid{
+    grid-template-columns: repeat(1, 1fr); 
   }
 
+  .card-grid h1{
+    font-size: 25px;
+    text-align: center;
+  }
+  
+  .card__heading {
+    font-size: 20px;
+  }
+  
+  .main_h {
+    padding-top: 10px;
+  }
+  
   .logo {
     float: none;
   }
-
+  
   nav {
     float: right;
     width: 60%;
   }
-
+  
   nav {
     width: 100%;
   }
-
+  
   .mobile-toggle {
     display: block;
+    right: 15px;
   }
-
+  
   nav ul {
     padding-top: 10px;
     margin-bottom: 22px;
     float: left;
-    text-align: center;
     width: 100%;
   }
-
+  
   nav ul li {
     width: 100%;
     padding: 7px 0;
     margin: 0;
+    text-align: center;
   }
+
+/* --------- Footer --------- */
+#myBtn {
+  bottom: 10px; /* Place the button at the bottom of the page */
+  right: 10px; /* Place the button 30px from the right */
+}
+}
+  
+/* Available breakpoints sm - small */
+@media screen and (min-width: 321px) and (max-width: 768px) {
+
+  .card-grid{
+    grid-template-columns: repeat(3, 1fr); 
+  }
+  
+  .card-grid h1{
+    display: none;
+  }
+  
+  .card__heading {
+    font-size: 12px;
+  }  
+
+.main_h {
+  padding-top: 25px;
 }
 
-@media(max-width:801px) {
+.logo {
+  float: none;
+}
+
+nav {
+  float: right;
+  width: 60%;
+}
+
+nav {
+  width: 100%;
+}
+
+.mobile-toggle {
+  display: block;
+}
+
+nav ul {
+  padding-top: 10px;
+  margin-bottom: 22px;
+  float: left;
+  text-align: center;
+  width: 100%;
+}
+
+nav ul li {
+  width: 100%;
+  padding: 7px 0;
+  margin: 0;
+}
+
+}
+  
+/* Available breakpoints medium, large, extra large and extra extra large */
+@media (min-width: 769px) and (max-width: 1400px) {
 
 ul#redesBottom{ width:231px; float:none; margin:20px auto}
 .box-col-publicidad{ margin-bottom:20px;}
 .contacto{ margin-top:0}
 #contactForm{ margin:0 0 40px 0}
 
-}
-
-@media(min-width: 540px){
-  .card-grid{
-    grid-template-columns: repeat(2, 1fr); 
-  }
-}
-
-@media(min-width: 960px){
-  .card-grid{
-    grid-template-columns: repeat(4, 1fr); 
-  }
-}
+.card-grid{
+  grid-template-columns: repeat(5, 1fr); 
+}  
   
+}

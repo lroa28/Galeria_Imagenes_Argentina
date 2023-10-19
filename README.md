@@ -1,4 +1,4 @@
-# Galeria de fotos de la Republica Argentina
+# Galeria de fotos de la República Argentina
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
