@@ -392,55 +392,56 @@ ul#redesBottom li.twitter a{ background-position:-191px -36px}
 
 /* Available breakpoints extra small */
 /* por lo gral utilizan @media screen and (max-width:480px){}*/ 
-@media (min-width: 1px) and (max-width: 320px) and (orientation : portrait) {
-  .card-grid{
+/* col-xs */
+@media (max-width: 767px) {
+.card-grid{
     grid-template-columns: repeat(1, 1fr); 
-  }
+}
 
-  .card-grid h1{
+.card-grid h1{
     font-size: 25px;
     text-align: center;
-  }
+}
   
-  .card__heading {
+.card__heading {
     font-size: 20px;
-  }
+}
   
-  .main_h {
+.main_h {
     padding-top: 10px;
-  }
+}
   
-  .logo {
+.logo {
     float: none;
-  }
+}
   
-  nav {
+nav {
     float: right;
     width: 60%;
-  }
+}
   
-  nav {
+nav {
     width: 100%;
-  }
+}
   
-  .mobile-toggle {
+.mobile-toggle {
     display: block;
     right: 15px;
-  }
+}
   
-  nav ul {
+nav ul {
     padding-top: 10px;
     margin-bottom: 22px;
     float: left;
     width: 100%;
-  }
+}
   
-  nav ul li {
+nav ul li {
     width: 100%;
     padding: 7px 0;
     margin: 0;
     text-align: center;
-  }
+}
 
 /* --------- Footer --------- */
 #myBtn {
@@ -450,19 +451,20 @@ ul#redesBottom li.twitter a{ background-position:-191px -36px}
 }
   
 /* Available breakpoints sm - small */
-@media screen and (min-width: 321px) and (max-width: 768px) {
+/* col-sm */
+@media (min-width: 768px) and (max-width: 991px) {
 
-  .card-grid{
+.card-grid{
     grid-template-columns: repeat(3, 1fr); 
-  }
+}
   
-  .card-grid h1{
+.card-grid h1{
     display: none;
-  }
+}
   
-  .card__heading {
-    font-size: 12px;
-  }  
+.card__heading {
+    font-size: 18px;
+}  
 
 .main_h {
   padding-top: 25px;
@@ -502,7 +504,8 @@ nav ul li {
 }
   
 /* Available breakpoints medium, large, extra large and extra extra large */
-@media (min-width: 769px) and (max-width: 1400px) {
+/* col-lg */
+@media (min-width: 1200px) {
 
 ul#redesBottom{ width:231px; float:none; margin:20px auto}
 .box-col-publicidad{ margin-bottom:20px;}
