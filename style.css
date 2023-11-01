@@ -14,7 +14,6 @@ html{
 body {
   color: #8f8f8f;
   background: white;
-  /* font-family: "Cardo", serif; */
   font-weight: 300;
   -webkit-font-smoothing: antialiased;
   padding: 0!important;
@@ -153,10 +152,8 @@ h1 {
     -moz-background-size: cover;
     background-size: cover;
     text-align: center;
-    /* color: #fff; */
     padding-top: 5px;
     padding-bottom: 5px;
-    /* min-height: 150px; */
     letter-spacing: 2px;
     font-family: "Montserrat", sans-serif;
   }
@@ -248,13 +245,8 @@ h1 {
 	align-items: flex-start;
 	background-image: linear-gradient(15deg, #0f4667 0%, #2a6973 150%);
 	display: flex;
-	/* min-height: 100%; */
 	justify-content:  space-around;
-  /* padding: 15px !important; */
-  /* margin: 0 !important; */
-	/* padding: var(--spacing-xxl) var(--spacing-l); */
-  /*padding-top: 50px;*/
-  padding-bottom: 50px;
+  padding: 10px !important;
 }
 
 /* ------------------------- */
@@ -265,8 +257,8 @@ h1 {
   grid-template-columns: repeat(5, 1fr);
   grid-column-gap: var(--spacing-xl);
   grid-row-gap: var(--spacing-xl);
-  max-width: var(--width-container);
-  width: 100%;
+  /* max-width: var(--width-container);
+  width: 100%; */
 }
 
 .card{
@@ -455,7 +447,9 @@ nav ul li {
 @media (min-width: 768px) and (max-width: 991px) {
 
 .card-grid{
-    grid-template-columns: repeat(3, 1fr); 
+  grid-template-columns: repeat(3, 1fr); 
+  padding: 0 !important; 
+  margin: 0 !important;  
 }
   
 .card-grid h1{
@@ -501,6 +495,12 @@ nav ul li {
   margin: 0;
 }
 
+.hero-section{
+	justify-content:space-around ;
+  padding-top: 10px !important;
+  margin: 0 !important;
+}
+
 }
   
 /* Available breakpoints medium, large, extra large and extra extra large */
@@ -516,15 +516,15 @@ nav ul li {
   margin: 0 !important;
 }
 
-ul#redesBottom{ width:231px; float:none; margin:20px auto}
-.box-col-publicidad{ margin-bottom:20px;}
-.contacto{ margin-top:0}
-#contactForm{ margin:0 0 40px 0}
-
 .card-grid{
   grid-template-columns: repeat(5, 1fr); 
   padding: 0 !important; 
   margin: 0 !important; 
-}  
-  
+} 
+
+/* ul#redesBottom{ width:231px; float:none; margin:20px auto}
+.box-col-publicidad{ margin-bottom:20px;}
+.contacto{ margin-top:0}
+#contactForm{ margin:0 0 40px 0} */
+
 }
