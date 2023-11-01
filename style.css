@@ -250,11 +250,11 @@ h1 {
 	display: flex;
 	/* min-height: 100%; */
 	justify-content:  space-around;
-  padding: 15px !important;
-  margin: 0 !important;
-	/* padding: var(--spacing-xxl) var(--spacing-l);
-  padding-top: 50px;
-  padding-bottom: 50px; */
+  /* padding: 15px !important; */
+  /* margin: 0 !important; */
+	/* padding: var(--spacing-xxl) var(--spacing-l); */
+  /*padding-top: 50px;*/
+  padding-bottom: 50px;
 }
 
 /* ------------------------- */
@@ -507,6 +507,15 @@ nav ul li {
 /* col-lg */
 @media (min-width: 1200px) {
 
+/* ------------------------- */
+/* --------GALLERY---------- */
+/* ------------------------- */
+.hero-section{
+	justify-content:space-around ;
+  padding-top: 10px !important;
+  margin: 0 !important;
+}
+
 ul#redesBottom{ width:231px; float:none; margin:20px auto}
 .box-col-publicidad{ margin-bottom:20px;}
 .contacto{ margin-top:0}
@@ -514,6 +523,8 @@ ul#redesBottom{ width:231px; float:none; margin:20px auto}
 
 .card-grid{
   grid-template-columns: repeat(5, 1fr); 
+  padding: 0 !important; 
+  margin: 0 !important; 
 }  
   
 }
